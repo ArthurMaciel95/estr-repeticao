@@ -1,9 +1,21 @@
-const usuarios = [
-  { nome: "Carlos", tecnologias: ["HTML", "CSS"] },
-  { nome: "Jasmine", tecnologias: ["JavaScript", "CSS"] },
-  { nome: "Tuane", tecnologias: ["HTML", "Node.js"] }
-];
+// const usuarios = [
+//     { nome: "Carlos", tecnologias: ["HTML", "CSS"] },
+//     { nome: "Jasmine", tecnologias: ["JavaScript", "CSS"] },
+//     { nome: "Tuane", tecnologias: ["HTML", "Node.js"] }
+//   ];
+  
+//   for (let i = 0 ; i < usuarios.length ; i++) {
+//     console.log(`${usuarios[i].nome} trabalha com ${usuarios[i].tecnologias}`)
+//   }
 
-for (let i = 0 ; i < usuarios.length ; i++) {
-  console.log(`${usuarios[i].nome} trabalha com ${usuarios[i].tecnologias}`)
+const usuarios = [
+    { nome: "Carlos", tecnologias: ["HTML", "CSS"] },
+    { nome: "Jasmine", tecnologias: ["JavaScript", "CSS"] },
+    { nome: "Tuane", tecnologias: ["HTML", "Node.js"] }
+  ];
+  
+  for (let value of usuarios) {
+
+    console.log(`${value.nome} trabalha com ${value.tecnologias}`)
 }
+
